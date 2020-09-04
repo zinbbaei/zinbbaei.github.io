@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>공부한 것 정리</description>
+    <link>
+    https://zinbbaei.github.io/</link>
+    
+      
+      <item>
+        <title>Python test page</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 정리 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;!-- 파일명 조심 - 날짜 부분 제외하고 이후 파일명을 명시 --&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 기본2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;test-page&quot;&gt;Test page&lt;/h1&gt;
+&lt;p&gt;This is test page #2 on python directory.&lt;/p&gt;
+</description>
+        
+        <pubDate>Sat, 05 Sep 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://zinbbaei.github.io//python-basic2</link>
+        <guid isPermaLink="true">https://zinbbaei.github.io//python-basic2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Algorithm 1</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 정리 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;!-- 파일명 조심 - 날짜 부분 제외하고 이후 파일명을 명시 --&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 기본2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sat, 05 Sep 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://zinbbaei.github.io//algorithm-basic</link>
+        <guid isPermaLink="true">https://zinbbaei.github.io//algorithm-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Python test page</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 정리 &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;!-- 파일명 조심 - 날짜 부분 제외하고 이후 파일명을 명시 --&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic2&quot;&gt;Python 기본2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Fri, 04 Sep 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://zinbbaei.github.io//python-basic</link>
+        <guid isPermaLink="true">https://zinbbaei.github.io//python-basic</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Gettysburg Address</title>
+        
+          <description>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 19 Nov 1863 19:18:00 +0900</pubDate>
+        <link>
+        https://zinbbaei.github.io//gettysburg-address</link>
+        <guid isPermaLink="true">https://zinbbaei.github.io//gettysburg-address</guid>
+      </item>
+      
+    
+  </channel>
+</rss>
