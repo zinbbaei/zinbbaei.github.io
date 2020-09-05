@@ -2,17 +2,17 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="https://zinbbaei.github.io//tag/algorithm/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://zinbbaei.github.io//" rel="alternate" type="text/html" />
-  <updated>2020-09-05T16:04:28+09:00</updated>
-  <id>https://zinbbaei.github.io//tag/algorithm/feed.xml</id>
+  <link href="https://zinbbaei.github.io/tag/algorithm/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://zinbbaei.github.io/" rel="alternate" type="text/html" />
+  <updated>2020-09-05T09:55:52+00:00</updated>
+  <id>https://zinbbaei.github.io/tag/algorithm/feed.xml</id>
 
   
   
   
 
   
-    <title type="html">Real Programmer | </title>
+    <title type="html">SW Development study | </title>
   
 
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Algorithm 1</title>
-      <link href="https://zinbbaei.github.io//algorithm-basic" rel="alternate" type="text/html" title="Algorithm 1" />
-      <published>2020-09-05T00:00:00+09:00</published>
-      <updated>2020-09-05T00:00:00+09:00</updated>
-      <id>https://zinbbaei.github.io//algorithm-basic</id>
-      <content type="html" xml:base="https://zinbbaei.github.io//algorithm-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 정리 &lt;/span&gt;&lt;/p&gt;
+      <link href="https://zinbbaei.github.io/algorithm-basic" rel="alternate" type="text/html" title="Algorithm 1" />
+      <published>2020-09-05T00:00:00+00:00</published>
+      <updated>2020-09-05T00:00:00+00:00</updated>
+      <id>https://zinbbaei.github.io/algorithm-basic</id>
+      <content type="html" xml:base="https://zinbbaei.github.io/algorithm-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 정리 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;!-- 파일명 조심 - 날짜 부분 제외하고 이후 파일명을 명시 --&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;
