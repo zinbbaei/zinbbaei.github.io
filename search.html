@@ -11,7 +11,7 @@
 
 
 
-    <title>Real Programmer</title>
+    <title>Search Result</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -49,19 +49,19 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="공부한 것 정리" />
     <link rel="shortcut icon" href="https://zinbbaei.github.io//assets/built/images/rocket-raccoon-guardians-of-the-galaxy.jpg" type="image/png" />
-    <link rel="canonical" href="https://zinbbaei.github.io//" />
+    <link rel="canonical" href="https://zinbbaei.github.io//search" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Real Programmer" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Real Programmer" />
+    <meta property="og:title" content="Search Result" />
     <meta property="og:description" content="공부한 것 정리" />
-    <meta property="og:url" content="https://zinbbaei.github.io//" />
+    <meta property="og:url" content="https://zinbbaei.github.io//search" />
     <meta property="og:image" content="https://zinbbaei.github.io//assets/built/images/rocket-raccoon-guardians-of-the-galaxy.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Real Programmer" />
+    <meta name="twitter:title" content="Search Result" />
     <meta name="twitter:description" content="공부한 것 정리" />
     <meta name="twitter:url" content="https://zinbbaei.github.io//" />
     <meta name="twitter:image" content="https://zinbbaei.github.io//assets/built/images/rocket-raccoon-guardians-of-the-galaxy.jpg" />
@@ -81,7 +81,7 @@
         "name": "Real Programmer",
         "logo": "https://zinbbaei.github.io//"
     },
-    "url": "https://zinbbaei.github.io//",
+    "url": "https://zinbbaei.github.io//search",
     "image": {
         "@type": "ImageObject",
         "url": "https://zinbbaei.github.io//assets/built/images/rocket-raccoon-guardians-of-the-galaxy.jpg",
@@ -90,7 +90,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://zinbbaei.github.io//"
+        "@id": "https://zinbbaei.github.io//search"
     },
     "description": "공부한 것 정리"
 }
@@ -105,11 +105,11 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Real Programmer" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
 
 
 </head>
-<body class="home-template">
+<body class="page-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
@@ -118,18 +118,14 @@
 into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer " style="background-image:  url(/assets/built/images/rocket-raccoon-guardians-of-the-galaxy.jpg) ">
+<header class="site-header outer">
     <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                
-                    Real Programmer
-                
-            </h1>
-            <h2 class="site-description">공부한 것 정리</h2>
-        </div>
         <nav class="site-nav">
     <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="https://zinbbaei.github.io//">Real Programmer</a>
+            
         
         
             <ul class="nav" role="menu">
@@ -160,207 +156,88 @@ into the {body} of the default.hbs template -->
     </div>
 </header>
 
-<!-- The main content area -->
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
-        <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+        <article class="post-full  post page no-image">
+
+            <header class="post-full-header">
+                <h1 class="post-full-title">Search Result</h1>
+            </header>
+
             
 
+            <section class="post-full-content">
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
 
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/python-basic2">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/python-logo.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic2">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Python</span>
-                            
-                        
-                    
+<ul class="mylist" id="search-results"></ul>
 
-                    <h2 class="post-card-title">Python test page</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python 정리 
-
+<script>
+    window.store = {
     
-    Python 기본
-    Python 기본2
-
-Test page
-This is test page #2 on python directory.
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/choonbae1.jpg" alt="Jinho Kim" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/Jinho/">Jinho Kim</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template no-image">
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/algorithm-basic">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Algorithm</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Algorithm 1</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python 정리 
-
+    "python-basic2": {
+        "title": "Python test page",
+            "author": "Jinho",
+            "category": "",
+            "content": "Python 정리         Python 기본    Python 기본2Test pageThis is test page #2 on python directory.",
+        "url": "/python-basic2"
+    }
+    ,
     
-    Python 기본
-    Python 기본2
-
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/choonbae1.jpg" alt="Jinho Kim" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/Jinho/">Jinho Kim</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/python-basic">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/python-logo.png)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/python-basic">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Python</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Python test page</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Python 정리 
-
+    "algorithm-basic": {
+        "title": "Algorithm 1",
+            "author": "Jinho",
+            "category": "",
+            "content": "Python 정리         Python 기본    Python 기본2This is test page on python directory.hi",
+        "url": "/algorithm-basic"
+    }
+    ,
     
-    Python 기본
-    Python 기본2
+    "python-basic": {
+        "title": "Python test page",
+            "author": "Jinho",
+            "category": "",
+            "content": "Python 정리         Python 기본    Python 기본2Test pageThis is test page on python directory.#include something",
+        "url": "/python-basic"
+    }
+    ,
+    
+    "gettysburg-address": {
+        "title": "Gettysburg Address",
+            "author": "abraham",
+            "category": "",
+            "content": "Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
+        "url": "/gettysburg-address"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
+            </section>
 
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/choonbae1.jpg" alt="Jinho Kim" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/Jinho/">Jinho Kim</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template no-image">
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/gettysburg-address">
-                <header class="post-card-header">
-                    
-
-                    <h2 class="post-card-title">Gettysburg Address</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-
-        </div>
+        </article>
 
     </div>
 </main>
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
 
 
         <!-- Previous/next page links - displayed on every page -->
@@ -437,7 +314,7 @@ This is test page #2 on python directory.
     <!-- Paginator increased to "infinit" in _config.yml -->
     <!-- if paginator.posts  -->
     <!-- <script>
-        var maxPages = parseInt('1');
+        var maxPages = parseInt('');
     </script>
     <script src="/assets/js/infinitescroll.js"></script> -->
     <!-- /endif -->
@@ -460,6 +337,14 @@ This is test page #2 on python directory.
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
     
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
