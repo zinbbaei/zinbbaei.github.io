@@ -4,6 +4,22 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>https://zinbbaei.github.io/raspberrypie-setting.html</loc>
+        
+        <lastmod>2020-09-08T00:00:00+00:00</lastmod>
+        
+
+        
+        <changefreq>weekly</changefreq>
+        
+
+        
+        <priority>0.5</priority>
+        
+
+    </url>
+    
+    <url>
         <loc>https://zinbbaei.github.io/python-basic2.html</loc>
         
         <lastmod>2020-09-05T00:00:00+00:00</lastmod>

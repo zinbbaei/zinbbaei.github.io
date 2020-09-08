@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://zinbbaei.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zinbbaei.github.io/" rel="alternate" type="text/html" /><updated>2020-09-05T10:02:15+00:00</updated><id>https://zinbbaei.github.io/</id><title type="html">SW Development study</title><subtitle>공부한 것 정리</subtitle><entry><title type="html">Python test page</title><link href="https://zinbbaei.github.io/python-basic2" rel="alternate" type="text/html" title="Python test page" /><published>2020-09-05T00:00:00+00:00</published><updated>2020-09-05T00:00:00+00:00</updated><id>https://zinbbaei.github.io/python-basic2</id><content type="html" xml:base="https://zinbbaei.github.io/python-basic2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 정리 &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://zinbbaei.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zinbbaei.github.io/" rel="alternate" type="text/html" /><updated>2020-09-08T18:06:06+00:00</updated><id>https://zinbbaei.github.io/</id><title type="html">SW Development study</title><subtitle>공부한 것 정리</subtitle><entry><title type="html">Embedded test page</title><link href="https://zinbbaei.github.io/raspberrypie-setting" rel="alternate" type="text/html" title="Embedded test page" /><published>2020-09-08T00:00:00+00:00</published><updated>2020-09-08T00:00:00+00:00</updated><id>https://zinbbaei.github.io/raspberrypie-setting</id><content type="html" xml:base="https://zinbbaei.github.io/raspberrypie-setting">&lt;h1 id=&quot;환경-설정&quot;&gt;환경 설정&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;sd-카드에-ubuntu-image-write&quot;&gt;SD 카드에 ubuntu image write&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;OS : Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-1015-raspi aarch64)&lt;/li&gt;
+  &lt;li&gt;초기 계정 (ubuntu/ubuntu)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;serial-port-연결&quot;&gt;serial port 연결&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;converter 시리얼 UART (참고 페이지)
+https://smartstore.naver.com/neato/products/288726876?NaPm=ct%3Dkeu93fe6%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3D%7Chk%3Dfa7da5751e1b0ca4cbf722b0d53e41a0d083f69a&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;시리얼 UART driver 설치
+https://m.blog.naver.com/saeroman/221012102544&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;시리얼 통신 setting
+https://blog.naver.com/chandong83/220808451163&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jinho</name></author><category term="embedded" /><summary type="html">환경 설정 SD 카드에 ubuntu image write OS : Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-1015-raspi aarch64) 초기 계정 (ubuntu/ubuntu)</summary></entry><entry><title type="html">Python test page</title><link href="https://zinbbaei.github.io/python-basic2" rel="alternate" type="text/html" title="Python test page" /><published>2020-09-05T00:00:00+00:00</published><updated>2020-09-05T00:00:00+00:00</updated><id>https://zinbbaei.github.io/python-basic2</id><content type="html" xml:base="https://zinbbaei.github.io/python-basic2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 정리 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;!-- 파일명 조심 - 날짜 부분 제외하고 이후 파일명을 명시 --&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 기본&lt;/a&gt;&lt;/li&gt;

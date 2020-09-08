@@ -8,6 +8,27 @@
     
       
       <item>
+        <title>Embedded test page</title>
+        
+          <description>&lt;h1 id=&quot;환경-설정&quot;&gt;환경 설정&lt;/h1&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;sd-카드에-ubuntu-image-write&quot;&gt;SD 카드에 ubuntu image write&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;OS : Ubuntu 20.04.1 LTS (GNU/Linux 5.4.0-1015-raspi aarch64)&lt;/li&gt;
+  &lt;li&gt;초기 계정 (ubuntu/ubuntu)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+        <link>
+        https://zinbbaei.github.io/raspberrypie-setting</link>
+        <guid isPermaLink="true">https://zinbbaei.github.io/raspberrypie-setting</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Python test page</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 정리 &lt;/span&gt;&lt;/p&gt;
